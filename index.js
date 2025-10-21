@@ -13,7 +13,8 @@ const PORT = process.env.PORT || 5000;
 // On production, Nginx makes it a same-origin request, so CORS isn't needed.
 const allowedOrigins = [
   'http://localhost:3000',
-  'http://localhost:5173'
+  'http://localhost:5173',
+  'http://54.172.71.127'
 ];
 
 app.use(cors({
